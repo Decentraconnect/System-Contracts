@@ -26,7 +26,7 @@ contract Params {
     // percent distrubution of Gas Fee earned by validator 100000 = 100%
     uint public constant stakerPartPercent = 40000;          //40% 
     uint public constant validatorPartPercent = 55000;        //55%
-    uint public constant burnPartPercent = 5;                //5%
+    uint public constant burnPartPercent = 5000;                //5%
     uint public constant contractPartPercent = 0;        //0%
     uint public constant burnStopAmount = 5000000 ether;      // after 5,00,000 coins burn, it will stop burning
     uint public totalBurnt;
